@@ -1,0 +1,21 @@
+$brand: #5c4084;
+
+.heading {
+  text-align: center;
+  h1 {
+    background: linear-gradient(red, lighten($brand, 30%));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-align: center;
+    font-weight: 900;
+    font-size: 4rem;
+    color: #fff;
+  }
+  h4 {
+    color: lighten($brand, 10%);
+    text-align: center;
+    margin: 0 0 35px 0;
+    font-weight: 400;
+    font-size: 24px;
+  }
+}

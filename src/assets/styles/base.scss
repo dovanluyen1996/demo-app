@@ -1,0 +1,20 @@
+* {
+	margin: 0;
+	padding: 0;
+	border-box: box-sizing;
+}
+body {
+	font-family:'Open Sans', sans-serif;
+	background: #00d2ff;
+	background: -webkit-linear-gradient(to right, #928DAB, #00d2ff); 
+	background: linear-gradient(to right, #928DAB, #00d2ff);
+}
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+button {  
+    cursor: pointer;
+}
